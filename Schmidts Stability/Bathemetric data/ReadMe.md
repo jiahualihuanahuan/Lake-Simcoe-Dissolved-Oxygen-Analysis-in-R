@@ -1,1 +1,1 @@
-# Bathemetric data
+# Bathymetric data
