@@ -3,7 +3,7 @@
 library(rLakeAnalyzer)
 # Set directory
 #setwd("/Users/jiahuali1991/Dropbox/Jiahua's MSc thesis/Data Analysis/Data/Temperature profile and Stability/csv files")
-setwd("D:/Dropbox/Jiahua's MSc thesis/Data Analysis/Data/Temperature profile and Stability/csv files")
+setwd("../lake temperature data")
 
 # Load temperature profiel data
 wtr <- read.csv("K42.temp.csv",header=T)
@@ -13,7 +13,7 @@ depths <- c(1:42)
 head(depths)
 # Load cross sectional areas in m2 corresponding to bthD depths
 # setwd("/Users/jiahuali1991/Dropbox/Jiahua's MSc thesis/Data Analysis/Data/Bathemetric data of Lake Simcoe")
-setwd("D:/Dropbox/Jiahua's MSc thesis/Data Analysis/Data/Bathemetric data of Lake Simcoe")
+setwd("../Bathemetric data")
 
 bthA <- read.csv("LS.bthA.csv",header=T)
 head(bthA)
