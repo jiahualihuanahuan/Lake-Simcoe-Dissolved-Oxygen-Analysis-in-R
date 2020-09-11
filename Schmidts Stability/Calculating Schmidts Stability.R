@@ -3,7 +3,7 @@
 library(rLakeAnalyzer)
 # Set directory
 #setwd("/Users/jiahuali1991/Dropbox/Jiahua's MSc thesis/Data Analysis/Data/Temperature profile and Stability/csv files")
-setwd("../lake temperature data")
+setwd("../lake temperature profile data")
 
 # Load temperature profiel data
 wtr <- read.csv("K42.temp.csv",header=T)
